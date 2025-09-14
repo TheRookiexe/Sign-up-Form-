@@ -9,8 +9,39 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     font-family: Norse-Bold;
+    display: flex;
+    flex-direction: row;
 }
 
+.img-container {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
 
+#img-id {
+    width: 600px;
+    height: 100vh;
+    position: absolute;
+}
+
+.card-body {
+    position: absolute;
+    width: 600px;
+    display: flex;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    justify-content: start;
+    font-size: 7rem;
+    margin-top: 200px;
+}
+
+#logo {
+    height: 120px;
+}
