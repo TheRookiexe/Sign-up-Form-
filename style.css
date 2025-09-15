@@ -125,3 +125,11 @@ input:focus {
     margin-top: 28px;
     font-size: 20px;
 }
+
+#password:invalid {
+    border: red;
+}
+
+#con-pass:invalid {
+    border: red;
+}
