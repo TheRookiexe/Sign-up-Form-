@@ -14,26 +14,52 @@
             <div>SIGN-UP FORM</div>
         </div>
     </div>
-    <div>
-        <form action="#" method="post">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="First Name" name="first-name">
+    <div class="sign-in-div">
+        <div class="pitch">
+            <p style="margin: 20px;">
+                This is not a real online service! You know you need something<br>
+                like this in your life to help you realize your deepest dreams.<br>
+                Sign up <i>now</i> to get started.
+            </p>
+            
+            <p style="margin-bottom: 20px; margin-left: 21px;">You <i>know</i> you want to.</p>
+            
+            <p style="margin-top: 50px; margin-bottom: 20px; margin-left: 21px;">Let's do this!</p>
+        </div>
+        
+        <div class="form">
+            <form action="#" method="post">
+                <div class="fn">
+                    <label for="first-name" required>*First Name</label>
+                    <input type="text" id="first-name" placeholder="First Name" name="first-name">
+                </div>
 
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" placeholder="Last Name" name="last-name">
+                <div class="ln">
+                    <label for="last-name" required>*Last Name</label>
+                    <input type="text" id="last-name" placeholder="Last Name" name="last-name">
+                </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="example@email.com" name="email">
+                <div class="mail">    
+                    <label for="email" required>*Email</label>
+                    <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="example@email.com" name="email">
+                </div>
 
-            <label for="ph-number">Ph Number</label>
-            <input  type="number" id="ph-number" placeholder="+91-8482939224" name="ph-number">
+                <div class="pn">
+                    <label for="ph-number" required>*Ph Number</label>
+                    <input  type="number" id="ph-number" placeholder="+91-8482939224" name="ph-number">
+                </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="" name="password">
+                <div class="pa">
+                    <label for="password" required>*Password</label>
+                    <input type="password" id="password" placeholder="" name="password">
+                </div>
 
-            <label for="con-pass">Confirm Password</label>
-            <input type="password" id="con-pass" placeholder="" name="con-pass">
-        </form>
+                <div class="cp">
+                    <label for="con-pass" required>*Confirm Password</label>
+                    <input type="password" id="con-pass" placeholder="" name="con-pass">    
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
