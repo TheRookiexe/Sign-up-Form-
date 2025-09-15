@@ -13,8 +13,6 @@ body {
     font-family: Norse-Bold;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
-    /* align-items:center; */
 }
 
 .img-container {
@@ -49,7 +47,6 @@ body {
 }
 
 .sign-in-div {
-    margin: 50px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -65,18 +62,19 @@ body {
 
 form {
     padding: 8px;
-    width: 900px;
     display: flex;
     align-items: center;
-    gap: 50px;
     flex-wrap: wrap;
     box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    row-gap: 50px;
+    column-gap: 170px;
 }
 
 .fn, .ln, .mail, .pa, .cp, .pn {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
 }
 
 label {
@@ -85,8 +83,8 @@ label {
 }
 
 input {
-    width: 260px;
-    padding: 10px;
+    width: 340px;
+    padding: 5px;
     font-size: 20px;
     border-radius: 5px;
     border-style: solid;
